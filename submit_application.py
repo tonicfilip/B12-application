@@ -6,10 +6,10 @@ import requests # type: ignore
 from datetime import datetime, timezone
 
 def submit():
-    
+
     name = "Filip Tonic"
     email = "tonicfilip@outlook.com"
-    resume_link = "https://your-resume-link.com"
+    resume_link = "https://github.com/tonicfilip/B12-application/blob/main/Filip%20Toni%C4%87%20Resume.pdf"
     signing_secret = os.getenv("B12_SIGNING_SECRET", "hello-there-from-b12")
     
     repo_link = f"https://github.com/{os.getenv('GITHUB_REPOSITORY', "tonicfilip/B12-application")}"
