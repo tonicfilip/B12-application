@@ -22,4 +22,4 @@ jobs:
       - name: Run submission
         env:
           B12_SECRET: "hello-there-from-b12"
-        run: python submit.py
+        run: python submit_application.py
